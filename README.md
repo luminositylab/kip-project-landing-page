@@ -1,7 +1,14 @@
-This is the landing page website for the KiP project by the most excellent Luminosity Lab at Arizona State University
-It has very simple funcionality
+This is the landing page website for the KiP project by the most excellent Luminosity Lab at Arizona State University.
+
+It has very simple funcionality!
 
 General layout taken from startbootstrap template - info for that is the following:
+
+
+
+
+
+
 
 ## About
 
