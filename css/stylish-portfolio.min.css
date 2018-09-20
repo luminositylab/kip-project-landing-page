@@ -78,6 +78,7 @@ h1,h2,h3,h4,h5,h6
 }
 .masthead
 {
+    background-color: #f2ff4d;
     min-height:30rem;
     position:relative;
     display:table;
@@ -85,10 +86,8 @@ h1,h2,h3,h4,h5,h6
     height:auto;
     padding-top:8rem;
     padding-bottom:8rem;
-    background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url(../img/bg-masthead.jpg);
-    background:linear-gradient(90deg#ffee00) 0#ffee00 100%),url(../img/bg-masthead.jpg);
+    
     background-position:center center;
-    background-repeat:no-repeat;
     background-size:cover
 }
 .masthead h1
@@ -119,7 +118,7 @@ h1,h2,h3,h4,h5,h6
     transition:all .4s ease 0s;
     -webkit-transform:translateX(250px);
     transform:translateX(250px);
-    background:#ffee00;
+    background:rgb(35, 169, 202);
     border-left:1px solid rgba(255,255,255,.1)
 }
 .sidebar-nav
@@ -197,7 +196,7 @@ h1,h2,h3,h4,h5,h6
 }
 .service-icon
 {
-    background-color:#fff;
+    background-color:#f2ff4d;
     color:rgb(35, 169, 202);
     height:7rem;
     width:7rem;
@@ -341,8 +340,8 @@ a:active,a:focus,a:hover
 }
 .btn-secondary
 {
-    background-color:#ffee00!important;
-    border-color:#ffee00!important;
+    background-color:#f2ff4d!important;
+    border-color:#f2ff4d!important;
     color:#fff!important
 }
 .btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover
@@ -370,5 +369,5 @@ a:active,a:focus,a:hover
 }
 .text-secondary
 {
-    color:#ffee00!important
+    color:#f2ff4d!important
 }
