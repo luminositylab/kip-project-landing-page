@@ -16,6 +16,7 @@ body
 }
 .content-section
 {
+    background-color: #f2ff4d;
     padding-top:7.5rem;
     padding-bottom:7.5rem
 }
@@ -209,7 +210,7 @@ h1,h2,h3,h4,h5,h6
 }
 .callout
 {
-    background-color: #f2ff4d
+    background-color: #f2ff4d;
     padding:15rem 0;
     background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url(../img/bg-callout.jpg);
     background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../img/bg-callout.jpg);
@@ -363,7 +364,9 @@ a:active,a:focus,a:hover
 }
 .bg-primary
 {
-    background-color:rgb(35, 169, 202)!important
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /*background-color:rgb(35, 169, 202)!important this is for the comic section*/
 }
 .text-primary
 {
