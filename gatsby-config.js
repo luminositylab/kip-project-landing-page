@@ -1,24 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: 'KIP',
+    description:
+      'An affordable, open-source 3D-printed robot for teaching students of all ages.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'KIP Kit',
+        short_name: 'KIP',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#F2FF4D',
+        theme_color: '#F2FF4D',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/kip-logo.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }
