@@ -46,8 +46,7 @@ class Index extends React.Component {
                   <h2>Become a Roboticist</h2>
                 </header>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Discover the how and why of every step in the process of building your own robot.
                 </p>
                 {/* <ul className="actions">
                   <li>
@@ -72,24 +71,22 @@ class Index extends React.Component {
                 <span className="icon major style3 fa-bolt" />
                 <h3>Electrical Design</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Master the principles of electrical design, from power electronics to digital motion control.
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-code" />
                 <h3>Software</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Program new functionalities and customize pre-built ones,
+                from your robot’s first steps to machine learning algorithms.
                 </p>
               </li>
               <li>
                 <span className="icon major style1 fa-print" />
                 <h3>3D Printing</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Take Kip to the next level by designing new parts and watch them take shape on your 3D printer.
                 </p>
               </li>
             </ul>
@@ -160,11 +157,10 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Create and Build</h2>
+                  <h2>Creator Community</h2>
                 </header>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Share your designs with other Kip creators and be inspired by their ideas and discussion.
                 </p>
                 {/* <ul className="actions">
                   <li>
@@ -182,11 +178,10 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Download the App</h2>
+              <h2>Stay Updated</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+              Join the Kip newsletter to follow development milestones
+              and be the first to learn about future release dates.
               </p>
             </header>
             <footer className="major">

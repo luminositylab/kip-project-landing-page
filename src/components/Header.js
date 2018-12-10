@@ -7,11 +7,10 @@ const Header = props => (
     <span className="logo">
       <img src={logo} alt="KIP" />
     </span>
-    <p>
+    <p style={{color: "#2454A3"}}>
       An affordable, open-source 3D-printed robot for teaching a breadth
-      <br />
+      <br/>
       of relevant hardware and software skills to students of all ages.
-      <br />
     </p>
   </header>
 )
