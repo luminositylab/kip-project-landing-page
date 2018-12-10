@@ -28,7 +28,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="KiP" />
+        <Helmet title="KiP | Learn Robotics" />
 
         <Header />
 
