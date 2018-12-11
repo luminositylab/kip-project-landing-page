@@ -37,11 +37,12 @@ class Index extends React.Component {
           onLeave={this._handleWaypointLeave}
         />
         <Nav sticky={this.state.stickyNav} />
-
+        <br/> {/*using this makes the header separate cleanly from the body,
+        but it forces the nav bar to stick to the top when user focuses on header*/}
         <div id="main">
           <section id="intro" className="main">
             <div className="spotlight">
-              <div className="content">
+              <div className="content"> 
                 <header className="major">
                   <h2>Become a Roboticist</h2>
                 </header>
