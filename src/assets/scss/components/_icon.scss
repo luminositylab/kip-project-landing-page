@@ -9,7 +9,7 @@
 	.icon {
 		@include icon;
 		@include vendor('transition', (
-			'background-color #{_duration(transition)} ease-in-out',
+			'background-color #2454A3',
 			'color #{_duration(transition)} ease-in-out'
 		));
 		border-bottom: none;
@@ -20,6 +20,7 @@
 		}
 
 		&.major {
+			//color: "#2454A3";
 			border: solid 1px;
 			display: inline-block;
 			border-radius: 100%;

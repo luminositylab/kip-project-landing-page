@@ -6,28 +6,25 @@ import logo from '../assets/images/logo.svg';
 const Footer = (props) => (
     <footer style={{color: "#2454A3"}} id="footer">
         <section>
-            <h2 style={{color: "#2454A3"}}>Aliquamasdf sed mauris</h2>
-            <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+            <h2 style={{color: "#2454A3"}}>The Luminosity Lab</h2>
+            <p>We're the coolest lab at ASU and we're ready for some interesting text here in this footer, if we decide to keep this section ya know?</p>
+            <br/>
             <ul className="actions">
                 <li><Link to="#" className="button">Learn More</Link></li>
             </ul>
         </section>
         <section>
-            <h2 style={{color: "#2454A3"}}>Etiam feugiat</h2>
+            <h2 style={{color: "#2454A3"}}>Contact Us</h2>
             <dl className="alt">
                 <dt style={{color: "#2454A3"}}>Address</dt>
-                <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+                <dd>Arizona State University &bull; Tempe, AZ 85281 &bull; USA</dd>
                 <dt style={{color: "#2454A3"}}>Phone</dt>
                 <dd>(000) 000-0000 x 0000</dd>
                 <dt style={{color: "#2454A3"}}>Email</dt>
-                <dd><a href="#">information@untitled.tld</a></dd>
+                <dd>kip@kip.com</dd> {/* Either decide to keep this or update it with real info */}
             </dl>
-            <ul className="icons">
-                <li><a href="#" className="icon fa-twitter alt"><span className="label">Twitter</span></a></li>
-                <li><a href="#" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
-                <li><a href="#" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
-                <li><a href="#" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
-                <li><a href="#" className="icon fa-dribbble alt"><span className="label">Dribbble</span></a></li>
+            <ul className="icons">            
+                <li><a href="https://www.instagram.com/robo.kip/" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
             </ul>
         </section>
         <p className="copyright">&copy; The Luminosity Lab<br/>Design: <a href="https://html5up.net">HTML5 UP</a></p>
