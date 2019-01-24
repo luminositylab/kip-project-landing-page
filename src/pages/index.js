@@ -1,3 +1,6 @@
+//can we embed coursera into the website for the educational purposes
+//e-commerce based eventually
+
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
@@ -44,7 +47,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content"> 
                 <header className="major">
-                  <h2>Become a Roboticist</h2>
+                  <h2>Robot - <i>simplified</i></h2>
                 </header>
                 <p>
                 Discover the how and why of every step in the process of building your own robot.
@@ -163,6 +166,10 @@ class Index extends React.Component {
                 <p>
                 Share your designs with other Kip creators and be inspired by their ideas and discussion.
                 </p>
+                <Link to="/download" className="button special">
+                    <span/>
+                    &nbsp; Link here?
+                  </Link>
                 {/* <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
