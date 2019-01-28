@@ -39,11 +39,13 @@
 
 	.select-wrapper {
 		@include icon;
+		// no color here
 		display: block;
 		position: relative;
 
 		&:before {
 			content: '\f078';
+			// no color here
 			display: block;
 			height: _size(element-height);
 			line-height: _size(element-height);
@@ -177,7 +179,7 @@
 		input[type="checkbox"],
 		input[type="radio"], {
 			& + label {
-				color: _palette($p, fg);
+				color: _palette($p, fg); //not here
 
 				&:before {
 					background: _palette($p, border-bg);
@@ -187,9 +189,9 @@
 
 			&:checked + label {
 				&:before {
-					background-color: _palette($p, fg-bold);
+					background-color: _palette($p, fg-bold); //not here
 					border-color: _palette($p, fg-bold);
-					color: _palette($p, bg);
+					color: _palette($p, bg); //not here
 				}
 			}
 
@@ -202,23 +204,23 @@
 		}
 
 		::-webkit-input-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: _palette($p, fg-light) !important; //not here
 		}
 
 		:-moz-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: _palette($p, fg-light) !important; //not here
 		}
 
 		::-moz-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: _palette($p, fg-light) !important; //not here
 		}
 
 		:-ms-input-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: _palette($p, fg-light) !important; //not here
 		}
 
 		.formerize-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: _palette($p, fg-light) !important; //not here
 		}
 	}
 

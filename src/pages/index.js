@@ -1,5 +1,6 @@
-//can we embed coursera into the website for the educational purposes
-//e-commerce based eventually
+// TODO: newsletter might be mailchip - could connect to shopify (if we decide to do that vs. amazon)
+// research how much it costs to put a product on amazon vs. shopify
+// 
 
 import React from 'react'
 import { Link } from 'gatsby'

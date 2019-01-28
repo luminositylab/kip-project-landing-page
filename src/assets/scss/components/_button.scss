@@ -28,7 +28,6 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		color: "#2454A3";
 
 		&.icon {
 			padding-left: 1.35em;
@@ -82,8 +81,9 @@
 			}
 
 			&.icon {
+				background-color: #2454A3;
 				&:before {
-					color: #2454A3;
+					background-color: #2454A3;
 				}
 			}
 
