@@ -28,6 +28,7 @@ const Footer = (props) => (
             </dl>
             <ul className="icons">            
                 <li><a href="https://www.instagram.com/robo.kip/" className="icon fa-instagram alt" style={{backgroundColor: "#8CC9F0"}}><span className="label">Instagram</span></a></li>
+                <li><a href="https://github.com/orgs/luminositylab/teams/project-kip" className="icon fa-github alt" style={{backgroundColor: "#8CC9F0"}}><span className="label">Instagram</span></a></li>
             </ul>
         </section>
         <p className="copyright">&copy; The Luminosity Lab<br/>Design: <a href="https://html5up.net">HTML5 UP</a></p>

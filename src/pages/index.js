@@ -1,6 +1,9 @@
 // TODO: newsletter might be mailchip - could connect to shopify (if we decide to do that vs. amazon)
 // research how much it costs to put a product on amazon vs. shopify
 // newsletter and creator community - keep them both! They will exist
+// newsletter will be scratched for now
+
+// embed learning platform in website - look into that
 
 import React from 'react'
 import { Link } from 'gatsby'
@@ -52,9 +55,7 @@ class Index extends React.Component {
                 </header>
                 <p>
                 Discover the how and why of every step in the process of building your own robot.
-                Become a roboticist.
                 </p>
-                <a href="https://www.amazon.com" className="button special">Buy KiP</a>
                 
               </div>
               <span className="image">
@@ -87,7 +88,7 @@ class Index extends React.Component {
                 <span className="icon major style1 fa-print" />
                 <h3>3D Printing</h3>
                 <p>
-                Take Kip to the next level by designing new parts and watch them take shape on your 3D printer.
+                Take KiP to the next level by designing new parts and watch them take shape on your 3D printer.
                 </p>
               </li>
             </ul>
@@ -97,14 +98,18 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Creator Community</h2>
+                  <h2>Tutorials</h2>
                 </header>
+                <p>Enjoy the learning platform and build your KiP along with everyone else.
+                  We've put together tutorials and videos for all you Kipsters.</p>
+                {/*
                 <p>
-                Share your designs with other Kip creators and be inspired by their ideas and discussion.
+                Share your designs with other KiP creators and be inspired by their ideas and discussion.
                 </p>
+                 */}
                 <Link to="/download" className="button special">
                     <span/>
-                    &nbsp; Learn More
+                    &nbsp; Go Learn
                   </Link>
               </div>
               <span>
@@ -115,19 +120,20 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
+            {/*
               <h2>Stay Updated</h2>
               <p>
               Join the Kip newsletter to follow development milestones
               and be the first to learn about future release dates.
               </p>
+              */}
+              <h2>Buy KiP</h2>
+              <p>Get your hands on your own KiP and become a master in the fundamentals of robotics.</p>
             </header>
             <footer className="major">
               <ul className="actions">
                 <li>
-                <Link to="/download" className="button special">
-                    <span/>
-                    &nbsp; Check Out Newsletter
-                </Link>
+                <a href="https://www.amazon.com" className="button special">Buy KiP</a>
                 </li>
                   {/*
                   <Link to="/generic" className="button special">
