@@ -11,7 +11,7 @@ const Nav = props => (
     >
       <li>
         <Scroll type="id" element="intro">
-          <a href="#">Become a Roboticist</a>
+          <a href="#">Robotics - <i>simplified</i></a>
         </Scroll>
       </li>
       <li>
