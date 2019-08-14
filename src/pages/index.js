@@ -4,7 +4,7 @@
 // newsletter will be scratched for now
 
 import React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
@@ -108,9 +108,10 @@ class Index extends React.Component {
                  */} 
                  {/* NOTE: use the Link component for internal links - to other pages */}
                   <a 
+                    rel="noopener noreferrer"
                     className="button special"
                     target="_blank"
-                    href={assemblyGuide}>Go Learn</a>
+                    href={assemblyGuide}>Build KiP</a>
               </div>
               <span>
                 <img src={blinkingKip} alt="" />
@@ -131,24 +132,9 @@ class Index extends React.Component {
               <p>Get your hands on your own KiP and become a master in the fundamentals of robotics.</p>
             </header>
             <footer className="major">
-              <ul className="actions">
-                <li>
-                <a href="https://www.amazon.com" className="button special">Buy KiP</a>
-                </li>
-                  {/*
-                  <Link to="/generic" className="button special">
-                    <span className="icon fa-mobile" />
-                    {'  '}
-                    &nbsp; iOS
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/download" className="button special">
-                    <span className="icon fa-android" />
-                    &nbsp; Android
-                  </Link>
-                   */}
-              </ul>
+              <Link to="/construction" className="button special">
+                &nbsp; Buy KiP 
+              </Link>
             </footer>
           </section>
         </div>
