@@ -3,10 +3,8 @@
 // newsletter and creator community - keep them both! They will exist
 // newsletter will be scratched for now
 
-// embed learning platform in website - look into that
-
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
@@ -15,6 +13,7 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 import kipRender3 from '../assets/images/kip.render.3.png'
 import blinkingKip from '../assets/images/blinking-kip.gif'
+import assemblyGuide from '../assets/images/kIP_Assembly_Guide_V2.pdf'
 
 class Index extends React.Component {
   constructor(props) {
@@ -101,16 +100,17 @@ class Index extends React.Component {
                   <h2>Tutorials</h2>
                 </header>
                 <p>Enjoy the learning platform and build your KiP along with everyone else.
-                  We've put together tutorials and videos for all you Kipsters.</p>
+                  We've put together tutorials for all you Kipsters.</p>
                 {/*
                 <p>
                 Share your designs with other KiP creators and be inspired by their ideas and discussion.
                 </p>
-                 */}
-                <Link to="/download" className="button special">
-                    <span/>
-                    &nbsp; Go Learn
-                  </Link>
+                 */} 
+                 {/* NOTE: use the Link component for internal links - to other pages */}
+                  <a 
+                    className="button special"
+                    target="_blank"
+                    href={assemblyGuide}>Go Learn</a>
               </div>
               <span>
                 <img src={blinkingKip} alt="" />
