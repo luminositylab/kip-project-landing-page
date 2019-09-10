@@ -12,7 +12,7 @@ https://gatsby-stellar.surge.sh/
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+Install this starter (assuming Gatsby is installed - if you don't: https://www.gatsbyjs.org/docs/quick-start/) by running from your CLI:
 <br>
 `gatsby new gatsby-starter-stellar https://github.com/codebushi/gatsby-starter-stellar`
 
