@@ -1,6 +1,6 @@
-# gatsby-starter-stellar
+# kip-web-frontend
 
-**This starter has been updated for Gatsby.js V2.**
+**This starter (gatsby-starter-stellar) has been updated for Gatsby.js V2.**
 
 **The older V1 version of this starter can be found in the V1 branch**
 
