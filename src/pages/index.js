@@ -11,7 +11,8 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import kipRender3 from '../assets/images/kip.render.3.png'
+// import kipRender3 from '../assets/images/kip.render.3.png'
+import logo from '../assets/images/kip-logo-with-text.png'
 import blinkingKip from '../assets/images/blinking-kip.gif'
 import assemblyGuide from '../assets/images/kIP_Assembly_Guide_V2.pdf'
 
@@ -35,7 +36,6 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet title="KiP | Learn Robotics" />
-
         <Header />
         <br/>
         <Waypoint
@@ -56,7 +56,7 @@ class Index extends React.Component {
                 
               </div>
               <span className="image">
-                <img src={kipRender3} alt="" />
+                <img src={logo} alt="" />
               </span>
             </div>
           </section>
