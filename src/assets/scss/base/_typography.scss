@@ -7,7 +7,7 @@
 /* Type */
 
 	body {
-		background-color: #9ACFF2;
+		background-color: #EBF250;
 		color: _palette(fg);
 	}
 
@@ -177,7 +177,8 @@
 
 	@mixin color-typography($p: null) {
 		@if $p != null {
-			background-color: _palette($p, bg);
+			// behind the scenes background color
+			background-color: #EEF451;
 			color: _palette($p, fg);
 		}
 
