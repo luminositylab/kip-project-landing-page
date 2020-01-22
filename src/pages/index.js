@@ -11,7 +11,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import kipRender3 from '../assets/images/kip.render.3.png'
+import kipRender3 from '../assets/images/Kip Render.png'
 import blinkingKip from '../assets/images/blinking-kip.gif'
 import assemblyGuide from '../assets/images/kIP_Assembly_Guide_V2.pdf'
 
