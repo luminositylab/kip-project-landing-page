@@ -1,8 +1,3 @@
-// TODO: newsletter might be mailchip - could connect to shopify (if we decide to do that vs. amazon)
-// research how much it costs to put a product on amazon vs. shopify
-// newsletter and creator community - keep them both! They will exist
-// newsletter will be scratched for now
-
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
