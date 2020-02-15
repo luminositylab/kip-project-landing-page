@@ -132,7 +132,7 @@ class Index extends React.Component {
                     href={assemblyGuide}>Explore Badges</a>
               </div>
               <span>
-                <img src={blinkingKip} alt="" />
+                <img src="images/gskip.png">
               </span>
             </div>
           </section>
