@@ -112,6 +112,31 @@ class Index extends React.Component {
             </div>
           </section>
 
+          <section id="second" className="main special">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>KIP + Girl Scouts</h2>
+                </header>
+                <p>Learn about opportunities for your Girl Scout Troup to earn robotics and coding badges with KIP!</p>
+                {/*
+                <p>
+                Share your designs with other KiP creators and be inspired by their ideas and discussion.
+                </p>
+                 */} 
+                 {/* NOTE: use the Link component for internal links - to other pages */}
+                  <a 
+                    rel="noopener noreferrer"
+                    className="button special"
+                    target="_blank"
+                    href={assemblyGuide}>Explore Badges</a>
+              </div>
+              <span>
+                <img src={blinkingKip} alt="" />
+              </span>
+            </div>
+          </section>
+
           <section id="cta" className="main special">
             <header className="major">
             {/*
