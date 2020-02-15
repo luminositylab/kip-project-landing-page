@@ -9,7 +9,6 @@ import Nav from '../components/Nav'
 import kipRender3 from '../assets/images/Kip Render.png'
 import blinkingKip from '../assets/images/blinking-kip.gif'
 import assemblyGuide from '../assets/images/kIP_Assembly_Guide_V2.pdf'
-import gskip from '..assets/images/GS KIP.PNG'
 
 class Index extends React.Component {
   constructor(props) {
@@ -133,7 +132,7 @@ class Index extends React.Component {
                     href={assemblyGuide}>Explore Badges</a>
               </div>
               <span>
-                <img src={gskip} alt="" />
+                <img src={blinkingKip} alt="" />
               </span>
             </div>
           </section>
